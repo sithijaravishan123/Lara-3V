@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "6YoiDZAS#FPj4wuQ_qZYcn6Rdqj0LUXp080IDO4_XnAcbgYJ6JOw", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "GIJyWK7D#03sn8l-iH7dDpwY1G-bZa_GxVgKyGZbk9C3joL6OzgA", // Add your session id
 PREFIX: process.env.PREFIX || ".",
 MODE: process.env.MODE || "public",  //public | private | inbox | group
 OWNER_NUMBER: process.env.OWNER_NUMBER || "94702754349",
@@ -27,13 +27,13 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",   
 ANTI_BOT: process.env.ANTI_BOT || "false",
-ANTI_CALL: process.env.ANTI_CALL || "true",
+ANTI_CALL: process.env.ANTI_CALL || "false",
 BAD_NUMBER_BLOCKER: process.env.BAD_NUMBER_BLOCKER || "false",
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 READ_CMD: process.env.READ_CMD || "true",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 ANTI_VV: process.env.ANTI_VV || "true",
-ANTI_DELETE: process.env.ANTI_DELETE || "true",
+ANTI_DELETE: process.env.ANTI_DELETE || "false",
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same",  // inbox | same
 WELCOME: process.env.WELCOME || "true",
 GOODBYE: process.env.GOODBYE || "true",
